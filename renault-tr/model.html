@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Renault Türkiye</title>
+    <link rel="shortcut icon" href="img/browser-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <!-- about -->
+    <section class="catalog fade-in" id="model">
+        <h1>3D Görüntüleyici</h1>
+        <div class="viewer">
+            <div class="viewer-row">
+                <div class="viewer-column">
+                    <h3>Ürün 1</h3>
+                    <p>Lorem ipsum dolor sit amet.
+                        Amet commodi cumque fuga iste?
+                        Exercitationem sint maxime officiis explicabo!
+                        Perspiciatis quasi hic rem dolorem.</p>
+                </div>        
+                <model-viewer
+                    alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+                    src="models/dino/scene.gltf" poster="models/dino/scene.gltf" shadow-intensity="1" camera-controls
+                    touch-action="pan-y"></model-viewer>
+            </div>
+            <div class="viewer-row">     
+                <model-viewer
+                    alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+                    src="models/dino/scene.gltf" poster="models/dino/scene.gltf" shadow-intensity="1" camera-controls
+                    touch-action="pan-y"></model-viewer>
+                    <div class="viewer-column">
+                        <h3>Ürün 2</h3>
+                        <p>Lorem ipsum dolor sit amet.
+                            Amet commodi cumque fuga iste?
+                            Exercitationem sint maxime officiis explicabo!
+                            Perspiciatis quasi hic rem dolorem.</p>
+                    </div>   
+            </div>
+            <div class="viewer-row">
+                <div class="viewer-column">
+                    <h3>Ürün 3</h3>
+                    <p>Lorem ipsum dolor sit amet.
+                        Amet commodi cumque fuga iste?
+                        Exercitationem sint maxime officiis explicabo!
+                        Perspiciatis quasi hic rem dolorem.</p>
+                </div>        
+                <model-viewer
+                    alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+                    src="models/dino/scene.gltf" poster="models/dino/scene.gltf" shadow-intensity="1" camera-controls
+                    touch-action="pan-y"></model-viewer>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="js/viewer.js"></script>
+</body>
+
+</html>

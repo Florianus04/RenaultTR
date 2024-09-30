@@ -8,28 +8,16 @@
     <title>Renault Türkiye</title>
     <link rel="shortcut icon" href="img/browser-logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-    <!-- header -->
-    <header class="header fade-in">
-        <a href="index.html" class="logo">
-            <img src="img/logo.png" alt="logo">
-        </a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar" id="navbar">
-            
-            <a href="index.html">Keşfedin</a>
-            <a href="#catalog">Katalog</a>
-            <a href="contact.html">Bize Ulaşın</a>
-        </nav>
-    </header>
     <!-- catalog -->
     <section class="catalog fade-in" id="catalog">
-        <div class="catalog-content">
+        <!--<div class="catalog-content">
             <h1>Model Kataloğumuz</h1>
             <div class="wrapper">
                 <div class="catalog-item">
@@ -42,35 +30,52 @@
                     </div>
                 </div>
             </div>
+        </div>-->
+        <h1>Fotoğraf Galerisi</h1>
+        <div class="photo-gallery">
+            <a href="img/foto-galeri1.webp" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri1.webp" alt="">
+            </a>
+            <a href="img/foto-galeri2.jpg" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri2.jpg" alt="">
+            </a>
+            <a href="img/foto-galeri3.jpg" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri3.jpg" alt="">
+            </a>
+            <a href="img/foto-galeri4.jpg" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri4.jpg" alt="">
+            </a>
+            <a href="img/foto-galeri5.jpg" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri5.jpg" alt="">
+            </a>
+            <a href="img/foto-galeri2.jpg" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri2.jpg" alt="">
+            </a>
+            <a href="img/foto-galeri3.jpg" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri3.jpg" alt="">
+            </a>
+            <a href="img/foto-galeri4.jpg" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri4.jpg" alt="">
+            </a>
+            <a href="img/foto-galeri1.webp" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri1.webp" alt="">
+            </a>
+            <a href="img/foto-galeri2.jpg" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri2.jpg" alt="">
+            </a>
+            <a href="img/foto-galeri4.jpg" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri4.jpg" alt="">
+            </a>
+            <a href="img/foto-galeri5.jpg" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri5.jpg" alt="">
+            </a>
+            <a href="img/foto-galeri2.jpg" data-lightbox="models" data-title="Fotoğraf">
+                <img src="img/foto-galeri2.jpg" alt="">
+            </a>
         </div>
     </section>
-    <!-- footer -->
-    <footer class="footer fade-in" id="footer">
-        <div class="social">
-            <a href="https://www.instagram.com/renaultturkiye/" target="_blank">
-                <i class='bx bxl-instagram-alt'></i>
-            </a>
-            <a href="https://tr-tr.facebook.com/renaultturkiye" target="_blank">
-                <i class='bx bxl-facebook-square'></i>
-            </a>
-            <a href="https://x.com/RenaultTurkey" target="_blank">
-                <i class='bx bxl-twitter'></i>
-            </a>
-            <a href="https://www.youtube.com/user/RenaultTurkey" target="_blank">
-                <i class='bx bxl-youtube'></i>
-            </a>
-            <a href="https://www.linkedin.com/company/renaultturkiye/" target="_blank">
-                <i class='bx bxl-linkedin-square'></i>
-            </a>
-        </div>
-        <ul class="list">
-            <li><a href="index.html">Keşfedin</a></li>
-            <li><a href="#catalog">Katalog</a></li>
-            <li><a href="contact.html">Bize Ulaşın</a></li>
-        </ul>
-        <p class="copyright">&copy; <span>Renault 2017 - 2024</span> | Tüm Hakları Saklıdır</p>
-    </footer>
-    <script src="js/car-api.js"></script>
+    <!--<script src="js/car-api.js"></script>-->
+    <script src="js/lightbox-plus-jquery.js"></script>
     <script src="js/main.js"></script>
 </body>
 
